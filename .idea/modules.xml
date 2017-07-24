@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://D://rabc/rabc.iml" filepath="D://rabc/rabc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/console/console.iml" filepath="$PROJECT_DIR$/console/console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rbac.iml" filepath="$PROJECT_DIR$/rbac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
     </modules>
   </component>
 </project>

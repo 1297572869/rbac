@@ -1,0 +1,56 @@
+/*弹窗用的到CSS*/
+/*弹窗函数样式*/
+#wstatus_don {
+	position: fixed;
+	left: 200px;
+	top: 400px;
+	width: auto;
+	line-height: 38px;
+	background: #fff;
+	border: solid 4px #e5e5e5;
+	padding: 2px;
+	z-index: 99992;
+}
+
+#wstatus_don .wstatus_don_s {
+	width: 38px;
+	height:38px;
+	float: left;
+}
+
+#wstatus_don .wstatus_don_s1 {
+	background: url(../popStatus/ico.png) no-repeat left top;
+}
+
+#wstatus_don .wstatus_don_s2 {
+	background: url(../popStatus/ico.png) no-repeat left bottom;
+}
+
+#wstatus_don .wstatus_don_s3 {
+	background: url(../popStatus/loading.gif) no-repeat center;
+}
+
+#wstatus_don .wstatus_don_s4 {
+	background: url(../popStatus/ico.png) no-repeat left -38px;
+}
+
+#wstatus_don .wstatus_don_f {
+	padding: 0 6px 0 6px;
+	text-align: left;
+	font-size: 14px;
+	color: #333;
+	font-family: "微软雅黑";
+}
+/*遮照*/
+#bremove_don {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.3;
+	filter: alpha(opacity = 30);
+	z-index: 99991;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+/*CSS结束*/
