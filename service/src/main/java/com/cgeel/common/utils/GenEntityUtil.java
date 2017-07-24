@@ -595,7 +595,7 @@ public class GenEntityUtil {
         String consolePagePath = "WEB-INF/html/admin";
         String consoleScriptPath = "assets/scripts/admin";
 
-        String tableName = "auth_user";
+        String tableName = "auth_role_function";
         GenEntityUtil genEntityUtil = new GenEntityUtil(
                 packagePath,tableName, mapperPackagePath,
                 xmlPackagePath, mapperExtends, serviceInterPackagePath, serviceImplPackagePath,controllerPackagePath,consolePagePath,consoleScriptPath);
